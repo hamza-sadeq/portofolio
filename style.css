@@ -1,0 +1,585 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo img{ 
+  padding: 12.5px 15px;
+  background-color: #272b44;
+  border-right: 2px solid rgb(13, 13, 41);
+}
+
+.logo{
+  margin-right: 3px;
+}
+
+.nav-bar a{
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px;
+  font-size: 18px;
+  transition: 0.2s ease;
+}
+
+.nav-bar{
+  background-color: #272b44;
+  padding: 20px 0;
+  padding-left: 80px;
+}
+
+.nav-bar a:hover{
+  color: #08d565;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #272b44;
+}
+
+.number{
+  color: #08d565;
+  font-size: 18px;
+  text-decoration: none;
+  padding-right: 40px;
+  cursor: pointer;
+}
+
+.number:hover{
+  text-decoration: none;
+  color: #08d565;
+}
+
+.cart-logo{
+  padding: 20px 20px;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  border-right: 2px solid rgb(13, 13, 41);
+  border-left: 2px solid rgb(13, 13, 41);
+}
+
+.cart-logo:hover{
+  color: white;
+}
+
+.menu-logo{
+  padding: 20px 20px;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  display: none;
+}
+
+.menu-logo:hover{
+  color: white;
+}
+
+section{
+  background-color: #1f2236;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+aside{
+  width: 0;                     /* change with js */
+  position: fixed;
+  top: 4.2rem;
+  right: 0;
+  background-color: #272b44;
+  height: 100%;
+  padding-top: 60px;
+  transition: 0.4s ease;
+}
+
+#close-btn{
+  font-size: 30px;
+  color: gray;
+  display: none;
+}
+
+#close-btn:hover{
+  text-decoration: none;
+}
+
+aside a{
+  padding: 15px 20px;
+  color: white;
+  transition: 0.2s ease;
+}
+
+aside a:hover{
+  color: #08d565;
+  text-decoration: none;
+}
+
+aside li{
+  list-style: none;
+  padding: 20px 20px;
+}
+
+.left-side{
+  width: 79px;
+  background-color: #272b44;
+  height: 100%;
+  position: absolute;
+  top: 4.2rem;
+  left: 0;
+  border-top: 2px solid rgb(13, 13, 41);
+}
+
+.facebook-icon{
+  width: 37px;
+  height: 37px;
+  font-size: 20px;
+  margin: auto;
+  margin-bottom: 20px;
+  text-align: center;
+  border: 1px solid #424659;
+  border-radius: 3px;
+  color: #424659;
+  cursor: pointer;
+}
+
+.facebook-icon:hover{
+  color: #424659;
+  border: 2px #08d565 solid;
+}
+
+.icon:hover{
+  color: #424659;
+}
+
+.social-icons{
+  margin-top: 250px;
+}
+
+.icon{
+  color: #424659;
+  vertical-align: middle;
+}
+
+.search-icon{
+  color: white;
+  font-size: 25px;
+  border-top: 2px solid rgb(13, 13, 41);
+  text-align: center;
+  padding: 12px 0;
+  padding-bottom: 23px;
+  margin-bottom: 0;
+  transition: 0.3s ease;
+}
+
+.search-icon:hover{
+  background-color: #08d565;
+}
+
+.search-div{
+  margin-top: 120px;
+}
+
+.box h6{
+  color: #08d565;
+  font-size: 18px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+
+.box h6 span{
+  padding-right: 10px;
+}
+
+.box h1{
+  font-family: 'Source Serif Pro', serif;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 60px;
+}
+
+.box h2{
+  font-family: 'Source Serif Pro', serif;
+  color: #08d565;
+  font-weight: 700;
+  font-size: 80px;
+  margin-bottom: 30px;
+}
+
+.box{
+  position: absolute;
+  top: 19rem;
+  left: 10rem;
+}
+
+.person{
+  position: absolute;
+  right: 2rem;
+}
+
+.person img{
+  width: 462px;
+}
+
+.box a{
+  padding: 20px 50px;
+  color: #fff;
+  background-color: #08d565;
+  margin-left: 15px;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.box a:hover{
+  text-decoration: none;
+}
+
+main{
+  background-color: #1f2236;
+}
+
+main hr{
+  margin: 0;
+  border: 1px solid #424659;
+}
+
+.title{
+  color: #08d565;
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 0;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+
+.get{
+  text-align: center;
+  font-family: 'Source Serif Pro', serif;
+  font-size: 60px;
+  letter-spacing: 2px;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 0;
+  padding-bottom: 40px;
+}
+
+.seo-container img{
+  padding: 20px 20px;
+  background-color: rgb(236, 235, 235);
+  border-radius: 50%;
+}
+
+.title-of-job{
+  font-size: 30px;
+  font-family: 'Source Serif Pro', serif;
+  color: white;
+  padding-top: 20px;
+  margin: 0;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.title-of-job:hover{
+  color: #08d565;
+}
+
+.details-of-job{
+  margin: 0;
+  color: white;
+  font-size: 14px;
+  width: 280px;
+  padding-top: 15px;
+  padding-bottom: 100px;
+}
+
+.idea-container img{
+  padding: 10px 20px;
+  background-color: rgb(236, 235, 235);
+  border-radius: 50%;
+}
+
+p{
+  margin: 0;
+}
+
+.all-jobs{
+  display: flex;
+  justify-content: space-around;
+}
+
+summary{
+  background-color: #424659;
+}
+
+.latest{
+  margin: 0;
+  text-align: center;
+  color: #08d565;
+  padding: 50px 0 10px 0;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.portfolio{
+  font-size: 50px;
+  font-family: 'Source Serif Pro', serif;
+  color: white;
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+.btn-primary{
+  background-color: #08d565;
+  border: 1px solid #08d565;
+}
+
+.card{
+  background-color: #1f2236;
+  transition: 0.4s ease;
+}
+
+.card:hover{
+  transform: scale(1.1);
+}
+
+.card-text{
+  color: white;
+  letter-spacing: 1px;
+  padding-bottom: 10px;
+}
+
+.btn-primary:hover{
+  background-color: #08d565;
+  border: 1px solid #08d565;
+}
+
+.card-title{
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Source Serif Pro', serif;
+  transition: 0.3s ease;
+}
+
+.card-title:hover{
+  color: #08d565;
+}
+
+.all-cards-1 , .all-cards-2{
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 30px;
+}
+
+.drawing{
+  position: absolute;
+  left: -5rem;
+  top: 1.7rem;
+}
+
+.view{
+  text-align: center;
+  padding: 10px 0 50px 0;
+}
+
+article{
+  background-color: #1f2236;
+}
+
+.dotted{
+  width: 400px;
+}
+
+.green{
+  position: absolute;
+  top: 0;
+  right: 6rem;
+}
+
+.date{
+  color: #08d565;
+}
+
+footer{
+  background-color: #1f2236;
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 50px ;
+}
+
+.phone{
+  color: white;
+  font-size: 17px;
+  padding-bottom: 10px;
+}
+
+.phone span{
+  color: #08d565;
+  padding-right: 5px;
+}
+
+.para p{
+  color: white;
+  font-size: 17px;
+  width: 250px;
+  text-align: center;
+}
+
+.enron{
+  position: relative;
+  left: 6rem;
+ padding-bottom: 15px;
+}
+
+.p1{
+  color: #fff;
+  font-size: 20px;
+}
+
+.p1 span{
+  color: #08d565;
+}
+
+.made{
+  width: 250px;
+  color: white;
+  font-size: 17px;
+  padding-top: 5px;
+}
+
+.finish{
+  padding-top: 15px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.finish span{
+  padding: 0px 10px;
+}
+
+@media only screen and (max-width: 980px) {
+
+.number{
+    display: none;
+}
+.left-side{
+  display: none;
+}
+
+.box h1{
+  font-size: 25px;
+}
+
+.box h2{
+  font-size: 40px;
+}
+.box{
+  top: 25rem;
+  left: 3rem;
+}
+.person {
+  top: 17.8rem;
+  right: 2rem;
+}
+.person img{
+  width: 300px;
+}
+.green{
+  display: none;
+}
+.all-jobs{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.details-of-job{
+  margin: auto;
+}
+}
+
+
+@media only screen and (max-width: 725px) {
+  #nav-bar{
+    display: none;
+  }
+  .left-side{
+    display: none;
+  }
+  
+  .box h1{
+    font-size: 25px;
+  }
+  .drawing{
+    display: none;
+  }
+  
+  .box h2{
+    font-size: 40px;
+  }
+  .box{
+    top: 5rem;
+    left: 5rem;
+    margin: auto;
+  }
+  .person {
+    top: 18rem;
+    right: 5rem;
+  }
+  .person img{
+    width: 300px;
+  }
+
+  .menu-logo{
+    display: inline-block;
+  }
+  .all-jobs{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .details-of-job{
+    margin: auto;
+  }
+  aside{
+    z-index: 999;
+  }
+  #close-btn{
+    z-index: 999;
+    color: white;
+  }
+  .green{
+    display: none;
+  }
+  .all-cards-1 , .all-cards-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .card{
+    margin-bottom: 20px;
+  }
+  .drawing{
+    display: none;
+  }
+  footer{
+    flex-direction: column;
+  }
+  .connection , .para{
+    margin: auto;
+    padding-bottom: 40px;
+  }
+  .last{
+    margin: auto;
+    text-align: center;
+  }
+}
